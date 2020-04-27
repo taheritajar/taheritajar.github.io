@@ -1,37 +1,313 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0022)http://akhavanpour.ir/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+     
+	 <meta name="description" content="Alireza AkhavanPour, Deep Learning Engineer and Researcher. ">
+     <title>Alireza AkhavanPour | علیرضا اخوان‌پور</title>
 
-You can use the [editor on GitHub](https://github.com/ARTT94/taheritajar.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+     <style type="text/css">
+        * { margin: 0; padding: 0; }
+        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
+        .clear { clear: both; }
+        #page-wrap { width: 800px; margin: 40px auto 60px; }
+        #pic { float: right; margin: -30px 0 0 0; }
+        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
+        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+        p { margin: 0 0 16px 0; }
+        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
+        a:hover { border-bottom-style: solid; color: black; }
+        ul { margin: 0 0 32px 17px; }
+        #objective { width: 500px; float: left; }
+        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
+        dd { width: 600px; float: right; }
+        dd.clear { float: none; margin: 0; height: 15px; }
+     </style>
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
 
-### Markdown
+    <div id="page-wrap">
+    
+        <img src="./Alireza AkhavanPour _ علیرضا اخوان_پور_files/Akhavan2.png" alt="Alireza Akhavanpour" id="pic">
+    
+        <div id="contact-info" class="vcard">
+        
+            <!-- Microformats! -->
+        
+            <h1 class="fn">Alireza AkhavanPour</h1>
+			    <p class="link">
+					<a target="_blank" href="http://akhavanpour.ir/cv/A.AkhavanPour-Nov2019.pdf" class="first">Resume</a> • 
+					<a target="_blank" href="https://www.linkedin.com/in/alirezaakhavanpour/">Linkedin</a> • 
+					<a target="_blank" href="https://github.com/Alireza-Akhavan">Github</a> • 
+					<a target="_blank" href="http://aparat.com/cvision">Video Channel</a> • 
+					<a target="_blank" href="http://www.slideshare.net/Alirezaakhavanpour/">Slideshare</a> • 
+					<a href="http://akhavanpour.ir/Teaching.html">Teaching</a> • 
+					<a href="http://akhavanpour.ir/gallery.html">Gallery</a>
+				</p>
+            <p>
+                Cell: <span class="tel">+98-21-91005045</span><br>
+                Email: Akhavan[at]Class[dot]Vision<br>
+				Webpage: <a class="email" href="http://akhavanpour.ir/">www.AkhavanPour.ir</a>
+            </p>
+        </div>
+                
+        <div id="objective">
+            <p>
+				I am a big fan of Artificial Intelligence.
+				I believe that one day robots will help the human in all our daily lives.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+				I am currently a python Developer and work on Computer Vision projects using Deep Learning.
 
-```markdown
-Syntax highlighted code block
+				I completed a master degree in Computer Science at <a href="http://srttu.edu/" target="_blank">SRTTU</a> in 2015. I was a member of the <a href="http://ccvlab.ir/people" target="_blank">Computational Cognitive Vision Lab</a> where I was advised by Prof. Ebrahimpour.
+				My research focuses on Invariant object recognition and Deep Learning.
+				
 
-# Header 1
-## Header 2
-### Header 3
+            </p>
+        </div>
+        
+        <div class="clear"></div>
+        
+        <dl>
+            <dd class="clear"></dd>
+            
+            <dt>Interests</dt>
+            <dd>
+				Deep Learning, Computer Vision, Machine Learning<br>
+				NLP, Data Mining<br>
+				Software Development<br>
+            </dd>		
+            <dd class="clear"></dd>
+            
+            <dt>Education</dt>
+            <dd>
+                <h2>M.S.<span>Shahid Rajaee University (<a href="https://www.srttu.edu/" target="_blank">SRTTU</a>), &nbsp;9/2013 – 12/2015</span></h2>		
+                <p>
 
-- Bulleted
-- List
+				<strong>Major:</strong> software engineering<br>
+                   <strong>Thesis:</strong> 
+					<a href="http://ganj.irandoc.ac.ir/articles/903155" target="_blank">
+						A Comparative Study of varying parameters in invariant object recognition at behavioural and computational-cognitive model level
+					</a><br>
+				   <strong>Advisor:</strong>
+				   <a href="http://ebrahimpourlab.ir/" target="_blank">Reza Ebrahimpour, Ph.D.</a><br>
+				   <strong>GPA:</strong> 18.07/20<br>
+				   </p>
+                <h2>B.S.<span>Shahid Rajaee University (SRTTU), &nbsp;9/2009 – 8/2013</span></h2>		
+                <strong>Major:</strong> software engineering<br>
+				   <p></p>
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Skills</dt>
+            <dd>
+                <h2>Computer Vision</h2>
+                <p>Deep learning, Machine Learning, Artificial Intelligence</p>
+                <p>Python, Tensorflow, Keras, Opencv, scikit-learn</p>                
+						
+            </dd>
+            
+            <dd class="clear"></dd>
+			
+            <dt>Academic Employment</dt>
+            <dd>
+								
+                <h2>Visiting Lecturer, Shahid Rajaee University</h2>
+                <strong>Summer 2019:</strong> Advanced  programming in C++<br>
+                <strong>Fall 2018:</strong> Advanced Deep Learning<br>
+                <strong>Winter 2017:</strong> Introduction to Computer Vision &amp; Deep Learning<br>
+                <strong>Winter 2017:</strong> Python for data science<br>
+                <strong>Fall 2016:</strong> Computer programming with Python<br>
+                <strong>Winter 2016:</strong> Advanced  programming in C++ <br>
+				<p>
+				</p>
+				<h2>Graduate Co-Instructors and Teaching Assistants </h2>
+                <strong>Fall 2018:</strong> Deep Learning for Dr. Reza Ebrahimpour<br>
+                <strong>Fall 2017:</strong> Deep Learning for Dr. Reza Ebrahimpour<br>
+				<p></p>
+				<h2>Undergraduate Teaching Assistant </h2>
+                <strong>Fall 2015:</strong> Databases for Prof. Negin Daneshpour<br>				
+				<strong>Winter 2015:</strong> Data Structures for Prof. Negin Daneshpour<br>
+            </dd>
+            
+            <dd class="clear"></dd>            
+            <dt>Work experience</dt>
+            <dd>
+                <h2>CTO at <a href="http://shenasa-ai.ir/" target="_blank">Shenasa-ai</a><span>2018 - Now</span></h2>
+                <ul>
+                    <li>Deep Learning researcher </li>
+                    <li>Face API</li>
+                    <li>license plate recognition API</li>
+                    <li>Face recognition system and Logging</li>
+                    <li>Attendance System Based on Face Recognition</li>
+					
+                </ul>
 
-1. Numbered
-2. List
+                <h2>Computer Vision Developer <span>2016 - 2018</span></h2>
+                <ul>
+                    <li>Deep Learning(Python, Tensorflow, Keras, OpenCV)</li>
+                    <li>Facial Recognition</li>
+                    <li>Face Retrieval</li>
+                    <li>Invariant Object Recognition</li>
+                    <li>Face Quality Assessment</li>
+                </ul>				
+			
+				
+            </dd>
+            
+            <dd class="clear"></dd>
+			
+            <dt>Independent projects:</dt>
+            <dd>
+			
+                <h2>Small Data Challenge <span>In Progress</span></h2>
+                <ul>
+                    <li>Dataset: Healthy Vs. Cognitively Impaired People – 68 Samples</li>
+                    <li>In collaboration with 
+					<a href="http://www.royaninstitute.org/cmsen/index.php" target="_blank">Royan Institute</a>
+					and 
+					<a href="https://www.cognetivity.com/" target="_blank">Cognetivity Neurosciences Ltd</a>
+					</li>
+                </ul>	
+                <h2>Iranian Face Dataset<span>In Progress</span></h2>
+	            <ul>
+                    <li><a href="http://iran-celeb.ir/" target="_blank">iran-celeb.ir</a></li>
+                </ul>	
+                <h2>Implementing a warning system regarding an ex-convict entering the bank using Facial Recognition<span>2017</span></h2>
+	            <ul>
+                    <li>Implementing on Jetson TX1</li>
+                </ul>			
+				
+				      
+            </dd>
+            <dd class="clear"></dd>  
+  
+            <dt>Publications </dt>
+            <dd>
+			    <h2>In progress</h2>
+				<ul>
+				<li>
+				Small Sample Size Problem: A comparative study of different classifiers for binary classification of cognitive disorders			    			
+				</li>
+				<li>
+				Text classification for Persian newspaper corpus
+				</li>
+				<li>
+				Object Recognition under Occlusion: A comparison among various methods to tackle this challenging condition
+			    </li>
+				</ul>
+				<h2>Sharif Neuroscience Symposium 2019</h2>
+                <a href="http://akhavanpour.ir/publications/Object_Recognition_under_Occlusion(Poster).pdf" target="_blank">Object Recognition under Occlusion Conditions with Generative Models (Poster)</a>
+			    
+				<h2>ICMVIP</h2>
+				<a href="http://www.civilica.com/Paper-ICMVIP09-ICMVIP09_086.html" target="_blank">
+				Akhavan Pour, Alireza; Hamid Karimi, Nasour Bagheri and REZA Ebrahimpour, 2015, Comparing the ability to recognize objects in the background faced with different variations in human and the new visual cortex model, 9th Iranian Conference on Machine Vision and Image Processing</a>
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+            </dd>
+            
+            <dd class="clear"></dd>  
+            <dt>Presentation and Talks</dt>
+            <dd>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+                <p>
+				<strong>November 21, 2019</strong> 
+				<a href="http://class.vision/deep2/" target="_blank">
+				Recurrent Neural Networks (12h workshop)
+				</a>in
+				<a htef="https://nsfund.ir/en/" target="_blank">Iran National Innovation Fund</a>
+				<br>
+				<strong>June 18, 2019</strong> 
+				<a href="https://www.sru.ac.ir/%d8%af%d8%a7%d9%86%d8%b4%da%a9%d8%af%d9%87-%d9%85%d9%87%d9%86%d8%af%d8%b3%db%8c-%da%a9%d8%a7%d9%85%d9%be%db%8c%d9%88%d8%aa%d8%b1-%d8%ae%d8%a8%d8%b1-%d8%af%d8%a7%d8%af-6/" target="_blank">
+				Machine Learning with Python (8h workshop)
+				</a>in
+				Institute for Advanced Science Technology, Shahid Rajaee University.
+				<br>
+				<strong>February 14, 2019</strong> 
+				<a href="http://cesru.ir/course/deep-learning/" target="_blank">
+				Two-Day Workshop on Deep Learning (12h workshop)
+				</a>in
+				ssc, Department of CE, Shahid Rajaee University.
+				<br>
+				<strong>November 14, 2018</strong> 
+				<a href="http://plan.azad.ac.ir/fa/page/9755/%D8%AF%D9%88%D8%B1%D9%87-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C-%D8%A7%D8%B5%D9%88%D9%84-%D8%B4%D8%A8%DA%A9%D9%87-%D9%87%D8%A7%DB%8C-%D8%B9%D8%B5%D8%A8%DB%8C-%D8%B9%D9%85%DB%8C%D9%82-%D8%AF%D8%B1-%D8%A8%DB%8C%D9%86%D8%A7%DB%8C%DB%8C-%D9%85%D8%A7%D8%B4%DB%8C%D9%86-%D9%85%D9%82%D8%AF%D9%85%D8%A7%D8%AA%DB%8C" target="_blank">
+				Principles of Deep Neural Networks in Machine Vision
+				</a>in
+				Department of CE, <a href="http://www.azad.ac.ir/" target="_blank">Islamic Azad University</a>, South Tehran Branch
+				<br>
+				<strong>August 30, 2018</strong> 
+				<a href="https://evand.com/events/part-dlss" target="_blank">
+				One-shot learning: Face Verification &amp; Recognition 
+				</a>in
+				<a href="http://www.partdp.ir/" target="_blank">partdp</a>
+				<br>				
+				<strong>August 15, 2018</strong> 
+				<a href="https://evand.com/events/part-dlss" target="_blank">
+				Deep Learning with Keras (8h workshop)
+				</a>in
+				<a href="http://www.partdp.ir/" target="_blank">partdp</a>
+				<br>
+				<strong>February 08, 2017</strong> 
+				<a href="http://bigdataworkgroup.ir/wg_programs/1245" target="_blank">
+				Implementing a Convolutional Networks using TensorFlow
+				</a>in
+				Big Data Workgroup, Department of CE, <a href="http://www.sharif.ir/" target="_blank">Sharif University</a> of Technology.
+				<br>
+				<strong>January 24, 2017</strong> 
+				<a href="http://bigdataworkgroup.ir/wg_programs/1203" target="_blank">
+				Introduction to TensorFlow for Deep Learning
+				</a>in
+				Big Data Workgroup, Department of CE, <a href="http://www.sharif.ir/" target="_blank">Sharif University</a> of Technology.
+				<br>
+				
 
-### Jekyll Themes
+            </p></dd>
+        </dl>
+            <dd class="clear"></dd>
+            
+            <dt>Certificates</dt>
+            <dd>
+				<ul>
+					<li>
+						<a href="https://www.coursera.org/account/accomplishments/specialization/QX62LW26F694" target="_blank">
+						   Deep Learning Specialization by deeplearning.ai (Coursera), Dec 2018
+						</a>
+					</li>		
+					<li>
+						<a href="https://courses.cognitiveclass.ai/certificates/user/557919/course/course-v1:BigDataUniversity+ML0120EN+2016" target="_blank">
+						 Deep Learning with TensorFlow (IBM Cognitive Class), Apr 2017
+						</a>
+					</li>
+					<li>
+						<a href="https://www.coursera.org/account/accomplishments/verify/YXY84BYPRMWL" target="_blank">
+						   Machine Learning by Stanford University (Coursera), Nov 2016
+						</a>
+					</li>
+					<li>
+						<a href="http://akhavanpour.ir/#" target="_blank">
+						   Mini-Workshop on Deep Learning (Certificate of attendance from SRTTU), November 2015
+						</a>
+					</li>						
+				</ul>
+		
+				
+            </dd>
+			
+            <dd class="clear"></dd>
+            
+            <dt>Online badges</dt>
+            <dd>
+			<a href="https://www.youracclaim.com/user/alireza-akhavan-pour" target="_blank">
+				<img alt="IBM Deep Learning Badge" style="height:110px;" src="./Alireza AkhavanPour _ علیرضا اخوان_پور_files/DeepLearning.png">
+				</a>
+            </dd>     
+			
+        <div class="clear"></div>
+    
+    </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ARTT94/taheritajar.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</body></html>
