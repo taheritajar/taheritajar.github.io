@@ -36,7 +36,7 @@ a:focus {
 
 h1 {
 	color: #FFFFFF;
-	font-size: 4rem;	
+	font-size: 4rem;
 }
 
 p {
@@ -133,7 +133,7 @@ p {
 }
 
 .footer-link {
-    margin: 20px;
+    margin: 10px;
 	font-size: 18px;
     position: absolute;
     bottom: 0;
