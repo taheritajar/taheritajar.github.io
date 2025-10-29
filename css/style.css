@@ -1,59 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Arimo:400|Raleway:300,400,700&display=swap");
 
-#particles-js {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: #000000;
-  z-index: 0;
-}
-
-/* Ensure all content sections appear above particles */
-.unslate_co--site-wrap {
-  position: relative;
-  z-index: 1;
-}
-
-/* Adjust section backgrounds to be transparent */
-.unslate_co--section,
-.section,
-.cover-v1 {
-  background: transparent !important;
-}
-
-/* Make sure text content is visible */
-.container {
-  position: relative;
-  z-index: 2;
-}
-
-/* Adjust other elements that need to be above particles */
-.unslate_co--site-nav {
-  position: relative;
-  z-index: 3;
-}
-
-.unslate_co--site-mobile-menu {
-  position: relative;
-  z-index: 4;
-}
-
-/* Optional: Add a subtle overlay to improve text readability */
-.section:before,
-.unslate_co--section:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.3);
-  z-index: 1;
-  pointer-events: none;
-}
-
 @media screen and (max-width: 667px) {
   body {
       overflow-x: hidden !important;
@@ -2883,4 +2829,21 @@ border-color: #f5a425;
   .unslate_co--footer {
     z-index: auto;
   }
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+/* Make sure content stays on top of particles */
+.par-js {
+  position: relative;
+  z-index: 2;
 }
