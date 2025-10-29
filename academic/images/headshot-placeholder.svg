@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="750" viewBox="0 0 600 750" fill="none">
-  <rect width="600" height="750" rx="48" fill="#13204A"/>
-  <circle cx="300" cy="240" r="130" fill="#1F3B7B"/>
-  <path d="M120 660C120 516 223 430 300 430C377 430 480 516 480 660" fill="#1F3B7B"/>
-  <text x="50%" y="90%" text-anchor="middle" fill="#ffffff" font-size="42" font-family="'Poppins', sans-serif">Add Headshot</text>
-</svg>
