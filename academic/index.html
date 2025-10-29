@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Alireza Taheritajar | Academic Portfolio</title>
-    <meta name="description" content="Ph.D. student in computer science and cyber security focused on mixed reality, computer vision, robotics, and AI security." />
+    <meta name="description" content="Ph.D. researcher in mixed reality, computer vision, robotics, and AI cyber security." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,17 +14,18 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <div class="container site-header">
+    <header class="site-header">
+      <div class="container nav-wrapper">
         <a class="site-title" href="#top">Alireza Taheritajar</a>
         <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
-        <nav>
+        <nav class="site-nav">
           <ul>
             <li><a class="active" href="#about">About</a></li>
             <li><a href="#research">Research</a></li>
             <li><a href="#publications">Publications</a></li>
             <li><a href="#news">News</a></li>
             <li><a href="#experience">Experience</a></li>
+            <li><a href="#teaching">Teaching</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#cv">CV</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -34,441 +35,322 @@
     </header>
 
     <main id="top">
-      <section class="hero section" id="about">
-        <div class="container hero-grid">
-          <aside class="profile-card">
-            <figure>
-              <img src="assets/headshot-placeholder.svg" alt="Portrait of Alireza Taheritajar" />
-            </figure>
-            <div class="profile-meta">
-              <div>
+      <div class="container main-layout">
+        <aside class="sidebar">
+          <img
+            src="assets/headshot-placeholder.svg"
+            class="profile-photo"
+            alt="Placeholder headshot for Alireza Taheritajar"
+          />
+          <!-- Replace assets/headshot-placeholder.svg with your headshot (e.g., assets/headshot.jpg) -->
+          <div class="sidebar-section">
+            <h3>Contact</h3>
+            <ul class="sidebar-list">
+              <li>
                 <span>Email</span>
                 <a href="mailto:alireza.taheritajar@augusta.edu">alireza.taheritajar@augusta.edu</a>
-              </div>
-              <div>
+              </li>
+              <li>
+                <span>Office</span>
+                Georgia Cyber Center, Augusta University
+              </li>
+              <li>
                 <span>Location</span>
-                <p>Augusta, Georgia, USA</p>
-              </div>
-              <div>
-                <span>Affiliation</span>
-                <p>Georgia Cyber Center &middot; AR/VR Lab &middot; Advisor: Dr. Jason Orlosky</p>
-              </div>
-            </div>
-            <div class="social-links">
-              <a href="https://scholar.google.com/citations?hl=en&user=SyK9A9EAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
-              <a href="https://www.linkedin.com/in/alireza-taheri/" target="_blank" rel="noopener">LinkedIn</a>
-              <a href="https://github.com/taheritajar" target="_blank" rel="noopener">GitHub</a>
-              <a href="https://orcid.org/0009-0002-5642-6329" target="_blank" rel="noopener">ORCID</a>
-            </div>
-          </aside>
-          <article class="bio">
-            <h1>Alireza Taheritajar</h1>
-            <h2>Ph.D. Student &middot; Computer Science &amp; Cyber Security &middot; Augusta University</h2>
+                Augusta, Georgia, USA
+              </li>
+            </ul>
+          </div>
+          <div class="sidebar-section">
+            <h3>Profiles</h3>
+            <ul class="sidebar-list">
+              <li><a href="https://scholar.google.com/citations?hl=en&user=SyK9A9EAAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
+              <li><a href="https://www.linkedin.com/in/alireza-taheri/" target="_blank" rel="noopener">LinkedIn</a></li>
+              <li><a href="https://github.com/taheritajar" target="_blank" rel="noopener">GitHub</a></li>
+              <li><a href="https://orcid.org/0009-0002-5642-6329" target="_blank" rel="noopener">ORCID</a></li>
+            </ul>
+          </div>
+          <div class="sidebar-section">
+            <a class="primary-button" href="../pdf/Alireza-Taheritajar-cv-2024-May.pdf" target="_blank" rel="noopener">Download CV</a>
+          </div>
+        </aside>
+
+        <div class="content-area">
+          <section class="section-block" id="about">
+            <h2 class="section-title">About</h2>
             <p>
-              I design trustworthy mixed reality systems that blend perceptual computing, artificial intelligence, and human-centered security. My research spans scalable 3D object detection pipelines, incremental learning for AR devices, and safeguards against acoustic side-channel attacks.
+              I am a Ph.D. student in Computer Science and Cyber Security at Augusta University, researching the intersection of mixed reality, computer vision, robotics, and trustworthy AI. My current focus is on scalable perception pipelines for immersive devices and resilience against acoustic side-channel attacks.
             </p>
             <p>
-              Before joining Augusta University, I engineered production-grade computer vision frameworks for industrial inspection and built robotic platforms that bridged prototyping and deployment. Today I collaborate closely with interdisciplinary teams to deliver immersive, explainable, and secure AI experiences.
+              Previously, I engineered production-grade vision systems for industrial inspection and led robotics initiatives that bridged prototypes to field deployments. I collaborate closely with interdisciplinary teams to deliver secure, human-centered intelligent systems.
             </p>
-            <div class="hero-actions">
-              <a class="primary" href="../pdf/Alireza-Taheritajar-cv-2024-May.pdf" target="_blank" rel="noopener">Download CV</a>
-              <a class="secondary" href="mailto:alireza.taheritajar@augusta.edu">Email Me</a>
+          </section>
+
+          <section class="section-block" id="research">
+            <h2 class="section-title">Research Interests</h2>
+            <p class="section-lead">Linking immersive perception, responsible AI, and resilient cyber-physical systems.</p>
+            <ul class="badge-list">
+              <li class="badge">Mixed Reality</li>
+              <li class="badge">Computer Vision</li>
+              <li class="badge">Robotics</li>
+              <li class="badge">AI Cyber Security</li>
+            </ul>
+          </section>
+
+          <section class="section-block" id="news">
+            <h2 class="section-title">News</h2>
+            <ul class="news-list">
+              <li class="news-item">
+                <time datetime="2024-10">Oct 2024</time>
+                <h3>AFCEA TechNet Recognition</h3>
+                <p>Presented &ldquo;Your Typing Style Leaks: What Are You Typing?&rdquo; and received commendations from U.S. Army leadership for acoustic side-channel research.</p>
+              </li>
+              <li class="news-item">
+                <time datetime="2024-08">Aug 2024</time>
+                <h3>TVCG Manuscript Under Review</h3>
+                <p>Submitted &ldquo;Scalable Object Detection in Mixed Reality using Incremental Re-training and One-shot 3D Annotation&rdquo; to IEEE Transactions on Visualization and Computer Graphics.</p>
+              </li>
+              <li class="news-item">
+                <time datetime="2023-09">Sep 2023</time>
+                <h3>Graduate Student Leadership</h3>
+                <p>Elected Vice President of the Computer &amp; Cyber Graduate Student Organization to strengthen XR and cybersecurity collaboration at Augusta University.</p>
+              </li>
+            </ul>
+          </section>
+
+          <section class="section-block" id="publications">
+            <h2 class="section-title">Publications &amp; Manuscripts</h2>
+            <ul class="publication-list">
+              <li class="publication-item">
+                <h3>Scalable Object Detection in Mixed Reality using Incremental Re-training and One-shot 3D Annotation</h3>
+                <p class="details">Alireza Taheritajar, Jeffrey Benson, Brandon Wilburn, Jieqiong Zhao, Jason Orlosky &middot; <em>TVCG</em> &middot; Under Review</p>
+              </li>
+              <li class="publication-item">
+                <h3>Large Language Model-Powered Virtual Assistants for In-situ Secondary Language Acquisition</h3>
+                <p class="details">Jeffrey Benson, Austin Coleman, Brandon Britt, Alireza Taheritajar, Jason Orlosky &middot; In Progress</p>
+              </li>
+              <li class="publication-item">
+                <h3>A Comparison of Empathy and Gaze Behavior in 2D vs 3D Immersive Training for Hospice Care Nursing</h3>
+                <p class="details">Lynsey Steinberg, Alireza Taheritajar, Jason Orlosky, Genieve Lucas &middot; In Progress</p>
+              </li>
+              <li class="publication-item">
+                <h3><a href="https://arxiv.org/abs/2403.08740" target="_blank" rel="noopener">Acoustic Side Channel Attack on Keyboards Based on Typing Style of Users</a></h3>
+                <p class="details">Alireza Taheritajar, Reza Rahaeimehr &middot; Preprint &middot; 2024</p>
+              </li>
+              <li class="publication-item">
+                <h3><a href="https://arxiv.org/abs/2309.11012" target="_blank" rel="noopener">A Survey on Acoustic Side Channel Attacks on Keyboards</a></h3>
+                <p class="details">Alireza Taheritajar, Z.M. Harris, Reza Rahaeimehr &middot; Preprint &middot; 2023</p>
+              </li>
+              <li class="publication-item">
+                <h3><a href="https://link.springer.com/article/10.1007/s11554-021-01131-w" target="_blank" rel="noopener">A Lightweight Tiny-YOLOv3 Vehicle Detection Approach</a></h3>
+                <p class="details">Alireza Taheri Tajar, Abbas Ramazani, Mohammad Mansoorizadeh &middot; Journal of Real-Time Image Processing &middot; 2021</p>
+              </li>
+              <li class="publication-item">
+                <h3><a href="https://civilica.com/doc/1238759/" target="_blank" rel="noopener">Automatic Image Description with Attention Mechanism and Repetitive Language Model</a></h3>
+                <p class="details">Ehsan Heidari, Mohammad Abdolmaleki, Alireza TaheriTajar, Masoud Mansoorizadeh, Mohammad Dezfoulian &middot; NCITA AI &middot; 2021</p>
+              </li>
+            </ul>
+          </section>
+
+          <section class="section-block" id="experience">
+            <h2 class="section-title">Professional Experience</h2>
+            <ul class="timeline">
+              <li class="timeline-item">
+                <h3>Graduate Research Assistant</h3>
+                <p class="details">Augusta University &middot; Georgia Cyber Center &middot; Aug 2023 &ndash; Present &middot; Advisor: Dr. Jason Orlosky</p>
+                <ul>
+                  <li>Build XR object detection pipelines with incremental re-training and human-in-the-loop annotation.</li>
+                  <li>Study acoustic side-channel attack resilience for immersive computing platforms.</li>
+                </ul>
+              </li>
+              <li class="timeline-item">
+                <h3>Machine Learning Engineer</h3>
+                <p class="details">Experts Group (AIEX) &middot; Montreal, QC &middot; Feb 2021 &ndash; Jul 2023</p>
+                <ul>
+                  <li>Delivered deep-learning inspection systems optimized for edge devices and GPU clusters.</li>
+                  <li>Shipped RESTful computer vision services leveraging TensorRT and PyTorch quantization.</li>
+                </ul>
+              </li>
+              <li class="timeline-item">
+                <h3>Technical Manager</h3>
+                <p class="details">Sina ATI NET &middot; Hamadan, Iran &middot; Sep 2017 &ndash; Mar 2020</p>
+                <ul>
+                  <li>Designed roadside vehicle detection infrastructure from sensor fabrication through deployment.</li>
+                </ul>
+              </li>
+              <li class="timeline-item">
+                <h3>Co-Founder &amp; Technical Manager</h3>
+                <p class="details">Atitek Faradid Pars &middot; Hamadan, Iran &middot; Jan 2015 &ndash; Sep 2017</p>
+                <ul>
+                  <li>Developed industrial robots for automation in the food industry.</li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+
+          <section class="section-block" id="education">
+            <h2 class="section-title">Education</h2>
+            <ul class="timeline">
+              <li class="timeline-item">
+                <h3>Ph.D. Computer Science &amp; Cyber Security</h3>
+                <p class="details">Augusta University &middot; Aug 2023 &ndash; Present &middot; GPA 4.0 / 4.0</p>
+                <p>Research focus: Secure and scalable mixed reality intelligence.</p>
+              </li>
+              <li class="timeline-item">
+                <h3>M.S. Electrical &amp; Control Engineering</h3>
+                <p class="details">Bu-Ali Sina University &middot; Sep 2016 &ndash; Sep 2019 &middot; GPA 3.31 / 4.0 (Top Student)</p>
+                <p>Thesis: Counting, Classifying, and Detecting the Speed of Vehicles based on Computer Vision.</p>
+              </li>
+              <li class="timeline-item">
+                <h3>B.S. Electrical Engineering</h3>
+                <p class="details">Bu-Ali Sina University &middot; Sep 2012 &ndash; Sep 2016 &middot; GPA 3.25 / 4.0 (Top Student)</p>
+                <p>Thesis: Design and Fabrication of Camera Robot.</p>
+              </li>
+            </ul>
+          </section>
+
+          <section class="section-block" id="teaching">
+            <h2 class="section-title">Teaching</h2>
+            <ul class="plain-list">
+              <li>Microprocessors Design (Teaching Assistant &middot; Spring 2017)</li>
+              <li>Logic Circuits Design (Teaching Assistant &middot; Fall 2017)</li>
+              <li>Signals and Systems (Teaching Assistant &middot; Spring 2016)</li>
+              <li>Electronic Circuits (Teaching Assistant &middot; Fall 2016)</li>
+            </ul>
+          </section>
+
+          <section class="section-block" id="projects">
+            <h2 class="section-title">Selected Projects</h2>
+            <div class="columns-two">
+              <div>
+                <h3>AIEX &ndash; Industrial Vision Platform</h3>
+                <ul>
+                  <li>Implemented salient object detection and instance segmentation with YOLO series, Mask R-CNN, Yolact, and U2Net.</li>
+                  <li>Optimized inference for edge hardware using TensorRT and PyTorch quantization.</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Bu-Ali Sina University &ndash; Vision Systems</h3>
+                <ul>
+                  <li>Developed RESTful object detection services with YOLOv3 and Django.</li>
+                  <li>Built vehicle detection applications powered by Tiny-YOLOv3.</li>
+                </ul>
+              </div>
+              <div>
+                <h3>ATI NET &ndash; Intelligent Transportation</h3>
+                <ul>
+                  <li>Designed inductive loop vehicle detectors for roadway deployment.</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Atitek &amp; RoboSina &ndash; Robotics</h3>
+                <ul>
+                  <li>Fabricated industrial robots for automation in the food industry.</li>
+                  <li>Built soccer and line follower robots for the Iran Open competition.</li>
+                </ul>
+              </div>
             </div>
-          </article>
-        </div>
-      </section>
+          </section>
 
-      <section class="section" id="research">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Research Interests</h2>
-            <p>Linking immersive perception, responsible AI, and resilient cyber-physical systems.</p>
-          </div>
-          <ul class="badge-list">
-            <li class="badge">Mixed Reality</li>
-            <li class="badge">Computer Vision</li>
-            <li class="badge">Robotics</li>
-            <li class="badge">AI Cyber Security</li>
-          </ul>
-        </div>
-      </section>
+          <section class="section-block" id="awards">
+            <h2 class="section-title">Awards &amp; Honors</h2>
+            <ul class="plain-list">
+              <li>2024 &middot; AFCEA TechNet commendations for &ldquo;Your Typing Style Leaks&rdquo; acoustic side-channel talk.</li>
+              <li>2016 &middot; Direct admission to Bu-Ali Sina University graduate program (top 10% exceptional talent).</li>
+              <li>2014 &middot; Bu-Ali Sina University Award for Exceptional Talent.</li>
+            </ul>
+          </section>
 
-      <section class="section" id="news">
-        <div class="container">
-          <div class="section-heading">
-            <h2>News</h2>
-            <p>Recent milestones, recognitions, and lab highlights.</p>
-          </div>
-          <div class="news-list">
-            <article class="news-item">
-              <time datetime="2024-10">Oct 2024</time>
+          <section class="section-block" id="service">
+            <h2 class="section-title">Leadership &amp; Service</h2>
+            <ul class="plain-list">
+              <li>2023 &middot; Vice President, Computer &amp; Cyber Graduate Student Organization, Augusta University.</li>
+              <li>2018 &middot; Head, Entrepreneurship Student Committee, Bu-Ali Sina University.</li>
+              <li>2016 &middot; Executive Committee Member, 14th Alumni Conference of the Festival of Nations.</li>
+              <li>2015 &middot; Head, Electrical &amp; Robotic Student Committee, Bu-Ali Sina University.</li>
+              <li>2013 &middot; Coordinator, First Conference on Industry-University Collaboration, Hamedan, Iran.</li>
+            </ul>
+          </section>
+
+          <section class="section-block" id="skills">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="columns-two">
               <div>
-                <h4>AFCEA TechNet Recognition</h4>
-                <p>Presented "Your Typing Style Leaks: What Are You Typing?" and received commendations from U.S. Army leadership for acoustic side-channel mitigation research.</p>
+                <h3>Programming Languages</h3>
+                <ul>
+                  <li>Python</li>
+                  <li>MATLAB</li>
+                  <li>C</li>
+                </ul>
               </div>
-            </article>
-            <article class="news-item">
-              <time datetime="2024-08">Aug 2024</time>
               <div>
-                <h4>TVCG Manuscript Under Review</h4>
-                <p>Submitted "Scalable Object Detection in Mixed Reality using Incremental Re-training and One-shot 3D Annotation" to IEEE Transactions on Visualization and Computer Graphics.</p>
+                <h3>Machine Learning &amp; AI</h3>
+                <ul>
+                  <li>PyTorch</li>
+                  <li>TensorFlow</li>
+                  <li>Keras</li>
+                  <li>LangChain</li>
+                  <li>Hugging Face</li>
+                  <li>Detectron2</li>
+                  <li>MLflow</li>
+                  <li>OpenCV</li>
+                  <li>TensorRT</li>
+                </ul>
               </div>
-            </article>
-            <article class="news-item">
-              <time datetime="2023-09">Sep 2023</time>
               <div>
-                <h4>Graduate Student Leadership</h4>
-                <p>Elected Vice President of the Computer &amp; Cyber Graduate Student Organization to strengthen XR and cybersecurity collaborations across Augusta University.</p>
+                <h3>Embedded &amp; Hardware</h3>
+                <ul>
+                  <li>NVIDIA Jetson Nano</li>
+                  <li>Raspberry Pi</li>
+                  <li>Arduino</li>
+                </ul>
               </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="publications">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Publications &amp; Manuscripts</h2>
-            <p>Selected research spanning immersive analytics, human-machine collaboration, and AI security.</p>
-          </div>
-          <div class="publication-list">
-            <article class="publication-card">
-              <h4>Scalable Object Detection in Mixed Reality using Incremental Re-training and One-shot 3D Annotation</h4>
-              <div class="publication-meta">
-                <span>Under Review</span>
-                <span>TVCG</span>
-                <span>2024</span>
+              <div>
+                <h3>Platforms &amp; Tooling</h3>
+                <ul>
+                  <li>Linux &amp; Windows</li>
+                  <li>Docker</li>
+                  <li>Git</li>
+                  <li>Unity</li>
+                  <li>Django &amp; Flask</li>
+                  <li>Jupyter</li>
+                  <li>Anaconda</li>
+                  <li>Google Cloud Platform</li>
+                  <li>Microsoft Azure</li>
+                </ul>
               </div>
-              <p>Alireza Taheritajar, Jeffrey Benson, Brandon Wilburn, Jieqiong Zhao, Jason Orlosky.</p>
-            </article>
-            <article class="publication-card">
-              <h4>Large Language Model-Powered Virtual Assistants for In-situ Secondary Language Acquisition</h4>
-              <div class="publication-meta">
-                <span>In Progress</span>
-                <span>XR Interfaces</span>
-              </div>
-              <p>Jeffrey Benson, Austin Coleman, Brandon Britt, Alireza Taheritajar, Jason Orlosky.</p>
-            </article>
-            <article class="publication-card">
-              <h4>A Comparison of Empathy and Gaze Behavior in 2D vs 3D Immersive Training for Hospice Care Nursing</h4>
-              <div class="publication-meta">
-                <span>In Progress</span>
-                <span>Immersive Training</span>
-              </div>
-              <p>Lynsey Steinberg, Alireza Taheritajar, Jason Orlosky, Genieve Lucas.</p>
-            </article>
-            <article class="publication-card">
-              <h4><a href="https://arxiv.org/abs/2403.08740" target="_blank" rel="noopener">Acoustic Side Channel Attack on Keyboards Based on Typing Style of Users</a></h4>
-              <div class="publication-meta">
-                <span>Preprint</span>
-                <span>2024</span>
-              </div>
-              <p>Alireza Taheritajar, Reza Rahaeimehr.</p>
-            </article>
-            <article class="publication-card">
-              <h4><a href="https://arxiv.org/abs/2309.11012" target="_blank" rel="noopener">A Survey on Acoustic Side Channel Attacks on Keyboards</a></h4>
-              <div class="publication-meta">
-                <span>Preprint</span>
-                <span>2023</span>
-              </div>
-              <p>Alireza Taheritajar, Z.M. Harris, Reza Rahaeimehr.</p>
-            </article>
-            <article class="publication-card">
-              <h4><a href="https://link.springer.com/article/10.1007/s11554-021-01131-w" target="_blank" rel="noopener">A Lightweight Tiny-YOLOv3 Vehicle Detection Approach</a></h4>
-              <div class="publication-meta">
-                <span>Journal of Real-Time Image Processing</span>
-                <span>2021</span>
-              </div>
-              <p>Alireza Taheri Tajar, Abbas Ramazani, Mohammad Mansoorizadeh.</p>
-            </article>
-            <article class="publication-card">
-              <h4><a href="https://civilica.com/doc/1238759/" target="_blank" rel="noopener">Automatic Image Description with Attention Mechanism and Repetitive Language Model</a></h4>
-              <div class="publication-meta">
-                <span>NCITA AI</span>
-                <span>2021</span>
-              </div>
-              <p>Ehsan Heidari, Mohammad Abdolmaleki, Alireza TaheriTajar, Masoud Mansoorizadeh, Mohammad Dezfoulian.</p>
-            </article>
-          </div>
-        </div>
-      </section>
+            </div>
+          </section>
 
-      <section class="section" id="experience">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Professional Experience</h2>
-            <p>Advancing intelligent perception across academia, industry, and entrepreneurship.</p>
-          </div>
-          <div class="timeline">
-            <article class="timeline-item">
-              <h4>Graduate Research Assistant</h4>
-              <p class="subtitle">Augusta University &middot; Georgia Cyber Center &middot; Aug 2023 &ndash; Present</p>
-              <p class="caption">Advisor: Dr. Jason Orlosky</p>
-              <ul>
-                <li>Build XR object detection pipelines with incremental re-training and human-in-the-loop annotation.</li>
-                <li>Study acoustic side-channel attack resilience for immersive computing platforms.</li>
-              </ul>
-            </article>
-            <article class="timeline-item">
-              <h4>Machine Learning Engineer</h4>
-              <p class="subtitle">Experts Group (AIEX) &middot; Montreal, QC &middot; Feb 2021 &ndash; Jul 2023</p>
-              <ul>
-                <li>Delivered deep-learning inspection systems optimized for edge devices and GPU clusters.</li>
-                <li>Shipped RESTful computer vision services leveraging TensorRT and PyTorch quantization.</li>
-              </ul>
-            </article>
-            <article class="timeline-item">
-              <h4>Technical Manager</h4>
-              <p class="subtitle">Sina ATI NET &middot; Hamadan, Iran &middot; Sep 2017 &ndash; Mar 2020</p>
-              <ul>
-                <li>Designed roadside vehicle detection infrastructure from sensor fabrication through deployment.</li>
-              </ul>
-            </article>
-            <article class="timeline-item">
-              <h4>Co-Founder &amp; Technical Manager</h4>
-              <p class="subtitle">Atitek Faradid Pars &middot; Hamadan, Iran &middot; Jan 2015 &ndash; Sep 2017</p>
-              <ul>
-                <li>Developed industrial robots for automation in the food industry.</li>
-              </ul>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="education">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Education</h2>
-            <p>Rigorous training in intelligent systems, controls, and cyber security.</p>
-          </div>
-          <div class="timeline">
-            <article class="timeline-item">
-              <h4>Ph.D. Computer Science &amp; Cyber Security</h4>
-              <p class="subtitle">Augusta University &middot; Aug 2023 &ndash; Present &middot; GPA 4.0 / 4.0</p>
-              <p class="caption">Research focus: Secure and scalable mixed reality intelligence.</p>
-            </article>
-            <article class="timeline-item">
-              <h4>M.S. Electrical &amp; Control Engineering</h4>
-              <p class="subtitle">Bu-Ali Sina University &middot; Sep 2016 &ndash; Sep 2019 &middot; GPA 3.31 / 4.0 (Top Student)</p>
-              <p class="caption">Thesis: Counting, classifying, and measuring vehicle speed with computer vision.</p>
-            </article>
-            <article class="timeline-item">
-              <h4>B.S. Electrical Engineering</h4>
-              <p class="subtitle">Bu-Ali Sina University &middot; Sep 2012 &ndash; Sep 2016 &middot; GPA 3.25 / 4.0 (Top Student)</p>
-              <p class="caption">Thesis: Design and fabrication of a camera robot.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="teaching">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Teaching Experience</h2>
-            <p>Supporting foundational engineering courses in digital systems and embedded computing.</p>
-          </div>
-          <div class="list-card">
-            <ul>
-              <li>Microprocessors Design &middot; Teaching Assistant &middot; Spring 2017</li>
-              <li>Logic Circuits Design &middot; Teaching Assistant &middot; Fall 2017</li>
-              <li>Signals and Systems &middot; Teaching Assistant &middot; Spring 2016</li>
-              <li>Electronic Circuits &middot; Teaching Assistant &middot; Fall 2016</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="awards">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Awards &amp; Honors</h2>
-            <p>Recognitions for research excellence, innovation, and academic leadership.</p>
-          </div>
-          <div class="list-card">
-            <ul>
-              <li>2024 &ndash; AFCEA TechNet commendations for "Your Typing Style Leaks" acoustic side-channel talk.</li>
-              <li>2016 &ndash; Direct admission to Bu-Ali Sina University graduate program (top 10% exceptional talent).</li>
-              <li>2014 &ndash; Bu-Ali Sina University Award for Exceptional Talent.</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="patents">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Patents</h2>
-            <p>Deploying research outcomes into high-impact applications.</p>
-          </div>
-          <div class="list-card">
-            <ul>
-              <li>2020 &ndash; Apparatus for counting and classifying vehicles using an inductive loop (I.R. 139850140003008739).</li>
-              <li>2020 &ndash; Smart remote-controlled robot for cleaning hemispherical cameras (I.R. 139850140003008741).</li>
-              <li>2016 &ndash; Smart agricultural robot with variable valve arrangement (I.R. 139550140003003919).</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="projects">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Selected Projects</h2>
-            <p>Translating ideas into deployed systems spanning XR, robotics, and intelligent transportation.</p>
-          </div>
-          <div class="grid-two">
-            <article class="list-card">
-              <h4>AIEX &middot; Industrial Vision Platform</h4>
-              <ul>
-                <li>Implemented salient object detection and instance segmentation with YOLO series, Mask R-CNN, Yolact, and U2Net.</li>
-                <li>Optimized inference for edge hardware using TensorRT and PyTorch quantization.</li>
-              </ul>
-            </article>
-            <article class="list-card">
-              <h4>Bu-Ali Sina University &middot; Vision Systems</h4>
-              <ul>
-                <li>Developed RESTful object detection services with YOLOv3 and Django.</li>
-                <li>Built vehicle detection applications powered by Tiny-YOLOv3.</li>
-              </ul>
-            </article>
-            <article class="list-card">
-              <h4>ATI NET &middot; Intelligent Transportation</h4>
-              <ul>
-                <li>Designed inductive loop vehicle detectors for roadway deployment.</li>
-              </ul>
-            </article>
-            <article class="list-card">
-              <h4>Atitek &amp; RoboSina &middot; Robotics</h4>
-              <ul>
-                <li>Fabricated industrial robots for automation in the food industry.</li>
-                <li>Built soccer and line follower robots for the Iran Open competition.</li>
-              </ul>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="service">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Leadership &amp; Service</h2>
-            <p>Nurturing innovation communities and student-led initiatives.</p>
-          </div>
-          <div class="list-card">
-            <ul>
-              <li>2023 &ndash; Vice President, Computer &amp; Cyber Graduate Student Organization, Augusta University.</li>
-              <li>2018 &ndash; Head, Entrepreneurship Student Committee, Bu-Ali Sina University.</li>
-              <li>2016 &ndash; Executive Committee Member, 14th Alumni Conference of the Festival of Nations.</li>
-              <li>2015 &ndash; Head, Electrical &amp; Robotic Student Committee, Bu-Ali Sina University.</li>
-              <li>2013 &ndash; Coordinator, First Conference on Industry-University Collaboration, Hamedan, Iran.</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="skills">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Technical Skills</h2>
-            <p>Full-stack expertise spanning research, deployment, and edge optimization.</p>
-          </div>
-          <div class="skills-grid">
-            <article class="skill-card">
-              <h4>Programming Languages</h4>
-              <ul>
-                <li>Python</li>
-                <li>MATLAB</li>
-                <li>C</li>
-              </ul>
-            </article>
-            <article class="skill-card">
-              <h4>Machine Learning &amp; AI</h4>
-              <ul>
-                <li>PyTorch</li>
-                <li>TensorFlow</li>
-                <li>Keras</li>
-                <li>LangChain</li>
-                <li>Hugging Face</li>
-                <li>Detectron2</li>
-                <li>MLflow</li>
-                <li>OpenCV</li>
-                <li>TensorRT</li>
-              </ul>
-            </article>
-            <article class="skill-card">
-              <h4>Embedded &amp; Hardware</h4>
-              <ul>
-                <li>NVIDIA Jetson Nano</li>
-                <li>Raspberry Pi</li>
-                <li>Arduino</li>
-              </ul>
-            </article>
-            <article class="skill-card">
-              <h4>Platforms &amp; Tooling</h4>
-              <ul>
-                <li>Linux &amp; Windows</li>
-                <li>Docker</li>
-                <li>Git</li>
-                <li>Unity</li>
-                <li>Django &amp; Flask</li>
-                <li>Jupyter</li>
-                <li>Anaconda</li>
-                <li>Google Cloud Platform</li>
-                <li>Microsoft Azure</li>
-              </ul>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="languages">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Languages</h2>
-            <p>Collaborating across global research teams.</p>
-          </div>
-          <div class="list-card">
-            <ul class="languages-list">
+          <section class="section-block" id="languages">
+            <h2 class="section-title">Languages</h2>
+            <ul class="plain-list">
               <li>English &middot; Proficient</li>
               <li>Farsi (Persian) &middot; Native</li>
               <li>Additional references available upon request</li>
             </ul>
-          </div>
-        </div>
-      </section>
+          </section>
 
-      <section class="section" id="cv">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Curriculum Vitae</h2>
-            <p>Download the latest CV for a complete list of publications, awards, and industry work.</p>
-          </div>
-          <div class="list-card">
+          <section class="section-block" id="cv">
+            <h2 class="section-title">Curriculum Vitae</h2>
             <p>
               Access my full CV <a href="../pdf/Alireza-Taheritajar-cv-2024-May.pdf" target="_blank" rel="noopener">here</a>, or contact me directly for tailored materials.
             </p>
-          </div>
-        </div>
-      </section>
+          </section>
 
-      <section class="section" id="contact">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Contact</h2>
-            <p>Let's explore collaborations in XR, secure AI, and intelligent robotics.</p>
-          </div>
-          <div class="list-card">
+          <section class="section-block" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <p>Let's explore collaborations in mixed reality, secure AI, and intelligent robotics.</p>
             <p><strong>Email:</strong> <a href="mailto:alireza.taheritajar@augusta.edu">alireza.taheritajar@augusta.edu</a></p>
             <p><strong>Office:</strong> Georgia Cyber Center, Augusta, GA</p>
-            <p><strong>Social:</strong> <a href="https://www.linkedin.com/in/alireza-taheri/" target="_blank" rel="noopener">LinkedIn</a> &middot; <a href="https://github.com/taheritajar" target="_blank" rel="noopener">GitHub</a> &middot; <a href="https://scholar.google.com/citations?hl=en&user=SyK9A9EAAAAJ" target="_blank" rel="noopener">Google Scholar</a></p>
-          </div>
+            <p><strong>Social:</strong> <a href="https://www.linkedin.com/in/alireza-taheri/" target="_blank" rel="noopener">LinkedIn</a> &middot; <a href="https://github.com/taheritajar" target="_blank" rel="noopener">GitHub</a> &middot; <a href="https://scholar.google.com/citations?hl=en&amp;user=SyK9A9EAAAAJ" target="_blank" rel="noopener">Google Scholar</a></p>
+          </section>
         </div>
-      </section>
+      </div>
     </main>
 
     <footer class="footer">
-      <div class="container footer-inner">
-  <p>&copy; <span id="year"></span> Alireza Taheritajar. All rights reserved.</p>
+      <div class="container">
+        <p>&copy; <span id="year"></span> Alireza Taheritajar. All rights reserved.</p>
         <div class="footer-links">
           <a href="#about">About</a>
           <a href="#publications">Publications</a>
