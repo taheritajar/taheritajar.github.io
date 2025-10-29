@@ -72,12 +72,6 @@
 
 <body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
 
-  <!-- Particles background (site-wide) -->
-  <div id="particles-js" class="particles-js-wrapper">
-    <script defer src="js/particles.js"></script>
-    <script defer src="js/app.js"></script>
-  </div>
-
   <!-- Mobile Menu -->
   <nav class="unslate_co--site-mobile-menu">
     <div class="close-wrap d-flex">
@@ -135,7 +129,10 @@
 
       <!-- Landing Page Section -->
       <div class="cover-v1 jarallax" id="bio-section">
-        <div class="container">
+        <div class="container" id="particles-js">
+          <script defer src="js/particles.js"></script>
+          <script defer src="js/app.js"></script>
+
           <div class="par-js">
             <h1 class="heading gsap-reveal-hero col-md-7 text-center" style="position: absolute; top: 20%; margin-left: 20%">Alireza Taheritajar</h1>
             <h2 class="subheading gsap-reveal-hero col-md-7 text-center" style="position: absolute; top: 40%; margin-left: 20%">

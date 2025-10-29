@@ -812,25 +812,6 @@ a:active {
   min-height: 650px;
 }
 
-/* Make particles wrapper a fixed site-wide background and sit behind content */
-#particles-js {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  z-index: 0; /* content layers in the site are higher (e.g., .unslate_co--site-inner z-index:1+) */
-  pointer-events: none; /* allow clicks to go to content above while still receiving mouse position via particles.js event listeners on document */
-}
-
-/* Ensure the canvas fills the wrapper */
-#particles-js .particles-js-canvas-el {
-  display: block;
-  width: 100% !important;
-  height: 100% !important;
-}
-
 .cover-v1 .heading {
   font-size: 5rem;
   font-weight: 900;
