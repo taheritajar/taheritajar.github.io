@@ -1,0 +1,17 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Publication Thumbnail Placeholder</title>
+  <desc id="desc">Outlined document icon with gradient background</desc>
+  <defs>
+    <linearGradient id="pubGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#12c2e9" />
+      <stop offset="50%" stop-color="#c471ed" />
+      <stop offset="100%" stop-color="#f64f59" />
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="url(#pubGrad)" />
+  <path d="M70 58h80l20 24v100c0 6-4 10-10 10H70c-6 0-10-4-10-10V68c0-6 4-10 10-10z" fill="#ffffff" opacity="0.92" />
+  <path d="M150 58v24h20" fill="none" stroke="#c471ed" stroke-width="6" stroke-linecap="round" />
+  <rect x="88" y="108" width="64" height="10" rx="5" fill="#c471ed" />
+  <rect x="88" y="132" width="64" height="10" rx="5" fill="#c471ed" opacity="0.8" />
+  <rect x="88" y="156" width="40" height="10" rx="5" fill="#c471ed" opacity="0.6" />
+</svg>

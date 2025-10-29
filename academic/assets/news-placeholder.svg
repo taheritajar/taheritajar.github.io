@@ -1,0 +1,13 @@
+<svg width="240" height="160" viewBox="0 0 240 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">News Placeholder</title>
+  <desc id="desc">Abstract skyline illustration used as a placeholder image</desc>
+  <defs>
+    <linearGradient id="newsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff8a00" />
+      <stop offset="100%" stop-color="#da1b60" />
+    </linearGradient>
+  </defs>
+  <rect width="240" height="160" rx="18" fill="url(#newsGrad)" />
+  <path d="M0 140h240v20H0z" fill="rgba(255,255,255,0.24)" />
+  <path d="M40 140l18-44 16 28 14-50 22 66 18-38 12 24 18-50 22 64 14-34 18 34" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.85" />
+</svg>
