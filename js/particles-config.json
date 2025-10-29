@@ -55,19 +55,3 @@
   "retina_detect": true
 }
 
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #000000;
-  background-image: url('');
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-}
-
-/* Make sure content stays on top of particles */
-.par-js {
-  position: relative;
-  z-index: 2;
-}
