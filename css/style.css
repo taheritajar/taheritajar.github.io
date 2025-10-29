@@ -812,18 +812,19 @@ a:active {
   min-height: 650px;
 }
 
-/* Make particles wrapper fill the cover area and sit behind centered content */
+/* Make particles wrapper a fixed site-wide background and sit behind content */
 #particles-js {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  right: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   overflow: hidden;
-  z-index: 1; /* content (.cover-v1 .container) has z-index:9, so particles stay behind */
+  z-index: 0; /* content layers in the site are higher (e.g., .unslate_co--site-inner z-index:1+) */
+  pointer-events: none; /* allow clicks to go to content above while still receiving mouse position via particles.js event listeners on document */
 }
 
+/* Ensure the canvas fills the wrapper */
 #particles-js .particles-js-canvas-el {
   display: block;
   width: 100% !important;
