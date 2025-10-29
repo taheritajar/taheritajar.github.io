@@ -129,15 +129,14 @@
 
       <!-- Landing Page Section -->
       <div class="cover-v1 jarallax" id="bio-section">
-  <div id="particles-js">
-    <div class="container">
-      <div class="par-js">
-        <h1 class="heading gsap-reveal-hero col-md-7 text-center">Alireza Taheritajar</h1>
-        <h2 class="subheading gsap-reveal-hero col-md-7 text-center">
-          A Ph.D. Researcher passionate about cutting-edge AI technologies.
-          Proficient in <a style="color: #3dff91;">Mixed Reality, Computer Vision, Large Language Models, and MLOps.</a>
-        </h2>
-      </div>
+  <div id="particles-js"></div>
+  <div class="container">
+    <div class="par-js">
+      <h1 class="heading gsap-reveal-hero col-md-7 text-center">Alireza Taheritajar</h1>
+      <h2 class="subheading gsap-reveal-hero col-md-7 text-center">
+        A Ph.D. Researcher passionate about cutting-edge AI technologies.
+        Proficient in <a style="color: #3dff91;">Mixed Reality, Computer Vision, Large Language Models, and MLOps.</a>
+      </h2>
     </div>
   </div>
 
@@ -618,6 +617,11 @@
 <script src="js/scripts-dist.js"></script>
 <script src="js/main.js"></script>
 <script src="js/curriculum.js"></script>
-
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+        particlesJS.load('particles-js', 'js/particles-config.json', function() {
+            console.log('particles.js loaded - callback');
+        });
+    </script>
 </body>
 </html>
