@@ -1,19 +1,17 @@
 document.addEventListener("DOMContentLoaded", () => {
   const navToggle = document.querySelector(".nav-toggle");
-  const navList = document.querySelector("nav ul");
+  const navLinks = document.querySelector(".nav-links");
+  const currentYearEl = document.getElementById("current-year");
 
-  if (navToggle && navList) {
+  if (navToggle && navLinks) {
     navToggle.addEventListener("click", () => {
-      const isOpen = navList.classList.toggle("open");
-      navToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+      const expanded = navToggle.getAttribute("aria-expanded") === "true";
+      navToggle.setAttribute("aria-expanded", String(!expanded));
+      navLinks.classList.toggle("open");
     });
   }
 
-  const navLinks = document.querySelectorAll("nav a[href^='#']");
-  navLinks.forEach((link) => {
-    link.addEventListener("click", () => {
-      navList?.classList.remove("open");
-      navToggle?.setAttribute("aria-expanded", "false");
-    });
-  });
+  if (currentYearEl) {
+    currentYearEl.textContent = new Date().getFullYear();
+  }
 });

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" fill="none">
+  <rect width="640" height="400" rx="28" fill="#111B3F"/>
+  <rect x="52" y="52" width="536" height="296" rx="24" fill="#2B3F7E"/>
+  <text x="50%" y="52%" text-anchor="middle" fill="#F6F8FB" font-size="26" font-family="'Poppins', sans-serif">LLM XR Tutor</text>
+</svg>
