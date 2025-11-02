@@ -964,6 +964,67 @@ a:active {
   }
 }
 
+/* Academic Button Styles */
+.academic-button-wrapper {
+  position: absolute;
+  bottom: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.academic-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.academic-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  color: #fff;
+}
+
+.academic-btn:active {
+  transform: translateY(0);
+}
+
+.academic-btn .bx {
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.academic-btn:hover .bx {
+  transform: translateX(4px);
+}
+
+@media (max-width: 768px) {
+  .academic-button-wrapper {
+    bottom: 100px;
+  }
+  
+  .academic-btn {
+    padding: 10px 24px;
+    font-size: 13px;
+  }
+}
+
 .hero-slider-wrap {
   position: relative;
 }
